@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\InterfaceServicos\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj" />
   </ItemGroup>
 

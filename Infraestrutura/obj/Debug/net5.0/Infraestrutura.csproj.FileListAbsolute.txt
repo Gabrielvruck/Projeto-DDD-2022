@@ -3,11 +3,16 @@ C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Infraestrutura.runt
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Infraestrutura.runtimeconfig.dev.json
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Infraestrutura.dll
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Infraestrutura.pdb
+C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Dominio.dll
+C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Entidades.dll
+C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Dominio.pdb
+C:\Projetos\Projeto-DDD-2022\Infraestrutura\bin\Debug\net5.0\Entidades.pdb
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.csproj.AssemblyReference.cache
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.AssemblyInfoInputs.cache
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.AssemblyInfo.cs
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.csproj.CopyComplete
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.dll
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\refint\Infraestrutura.dll
 C:\Projetos\Projeto-DDD-2022\Infraestrutura\obj\Debug\net5.0\Infraestrutura.pdb

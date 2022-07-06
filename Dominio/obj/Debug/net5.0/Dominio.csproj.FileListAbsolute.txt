@@ -1,11 +1,14 @@
 C:\Projetos\Projeto-DDD-2022\Dominio\bin\Debug\net5.0\Dominio.deps.json
 C:\Projetos\Projeto-DDD-2022\Dominio\bin\Debug\net5.0\Dominio.dll
 C:\Projetos\Projeto-DDD-2022\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Projetos\Projeto-DDD-2022\Dominio\bin\Debug\net5.0\Entidades.dll
+C:\Projetos\Projeto-DDD-2022\Dominio\bin\Debug\net5.0\Entidades.pdb
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.csproj.CopyComplete
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\refint\Dominio.dll
 C:\Projetos\Projeto-DDD-2022\Dominio\obj\Debug\net5.0\Dominio.pdb
