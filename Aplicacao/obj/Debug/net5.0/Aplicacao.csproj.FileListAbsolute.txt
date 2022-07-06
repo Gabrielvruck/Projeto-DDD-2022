@@ -1,0 +1,12 @@
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Aplicacao.deps.json
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Aplicacao.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Aplicacao.pdb
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.AssemblyInfo.cs
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\refint\Aplicacao.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.pdb
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\ref\Aplicacao.dll
