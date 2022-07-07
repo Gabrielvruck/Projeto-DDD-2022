@@ -10,3 +10,8 @@ C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.dll
 C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\refint\Aplicacao.dll
 C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.pdb
 C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\ref\Aplicacao.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Dominio.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Entidades.dll
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Dominio.pdb
+C:\Projetos\Projeto-DDD-2022\Aplicacao\bin\Debug\net5.0\Entidades.pdb
+C:\Projetos\Projeto-DDD-2022\Aplicacao\obj\Debug\net5.0\Aplicacao.csproj.CopyComplete
