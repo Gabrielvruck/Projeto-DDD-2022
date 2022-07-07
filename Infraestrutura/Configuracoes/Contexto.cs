@@ -21,7 +21,7 @@ namespace Infraestrutura.Configuracoes
 
         public string ObterStringConexao()
         {
-            string strcon = "Data Source=localhost;Initial Catalog=PROJETO_DDD_API_2022;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            string strcon = "Data Source=localhost;Initial Catalog=PROJETO_DDD_API_2022; Integrated Security = true; Encrypt = False; TrustServerCertificate = true";
             return strcon;
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

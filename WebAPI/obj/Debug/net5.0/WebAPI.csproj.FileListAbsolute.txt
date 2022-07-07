@@ -30,7 +30,6 @@ C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Pro
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -68,3 +67,12 @@ C:\Projetos\Projeto-DDD-2022\WebAPI\obj\Debug\net5.0\refint\WebAPI.dll
 C:\Projetos\Projeto-DDD-2022\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Projetos\Projeto-DDD-2022\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Projetos\Projeto-DDD-2022\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Aplicacao.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Dominio.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Entidades.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Infraestrutura.dll
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Aplicacao.pdb
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Infraestrutura.pdb
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Dominio.pdb
+C:\Projetos\Projeto-DDD-2022\WebAPI\bin\Debug\net5.0\Entidades.pdb
