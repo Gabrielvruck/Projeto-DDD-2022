@@ -29,52 +29,52 @@ namespace WebAPI.Controllers
             _signInManager = signInManager;
         }
 
-        [AllowAnonymous]
-        [Produces("application/json")]
-        [HttpPost("/api/CriarToken")]
-        public async Task<IActionResult> CriarToken([FromBody] Login login)
-        {
-            if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
-                return Unauthorized();
+        //[AllowAnonymous]
+        //[Produces("application/json")]
+        //[HttpPost("/api/CriarToken")]
+        //public async Task<IActionResult> CriarToken([FromBody] Login login)
+        //{
+        //    if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
+        //        return Unauthorized();
 
-            var resultado = await _IAplicacaoUsuario.ExisteUsuario(login.email, login.senha);
-            if (resultado)
-            {
-                var token = new TokenJWTBuilder()
-                    .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
-                .AddSubject("Vruck - Programeitor")
-                .AddIssuer("Teste.Securiry.Bearer")
-                .AddAudience("Teste.Securiry.Bearer")
-                .AddClaim("UsuarioAPINumero", "1")
-                .AddExpiry(5)
-                .Builder();
+        //    var resultado = await _IAplicacaoUsuario.ExisteUsuario(login.email, login.senha);
+        //    if (resultado)
+        //    {
+        //        var token = new TokenJWTBuilder()
+        //            .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
+        //        .AddSubject("Vruck - Programeitor")
+        //        .AddIssuer("Teste.Securiry.Bearer")
+        //        .AddAudience("Teste.Securiry.Bearer")
+        //        .AddClaim("UsuarioAPINumero", "1")
+        //        .AddExpiry(5)
+        //        .Builder();
 
-                return Ok(token.value);
-            }
-            else
-            {
-                return Unauthorized();
-            }
+        //        return Ok(token.value);
+        //    }
+        //    else
+        //    {
+        //        return Unauthorized();
+        //    }
 
-        }
+        //}
 
 
-        [AllowAnonymous]
-        [Produces("application/json")]
-        [HttpPost("/api/AdicionaUsuario")]
-        public async Task<IActionResult> AdicionaUsuario([FromBody] Login login)
-        {
-            if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
-                return Ok("Falta alguns dados");
+        //[AllowAnonymous]
+        //[Produces("application/json")]
+        //[HttpPost("/api/AdicionaUsuario")]
+        //public async Task<IActionResult> AdicionaUsuario([FromBody] Login login)
+        //{
+        //    if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
+        //        return Ok("Falta alguns dados");
 
-            var resultado = await
-                _IAplicacaoUsuario.AdicionaUsuario(login.email, login.senha, login.idade, login.celular);
+        //    var resultado = await
+        //        _IAplicacaoUsuario.AdicionaUsuario(login.email, login.senha, login.idade, login.celular);
 
-            if (resultado)
-                return Ok("Usuário Adicionado com Sucesso");
-            else
-                return Ok("Erro ao adicionar usuário");
-        }
+        //    if (resultado)
+        //        return Ok("Usuário Adicionado com Sucesso");
+        //    else
+        //        return Ok("Erro ao adicionar usuário");
+        //}
 
         //usando UserManager e SignInManager
         [AllowAnonymous]
@@ -89,12 +89,13 @@ namespace WebAPI.Controllers
 
             if (resultado.Succeeded)
             {
+                var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(login.email);
                 var token = new TokenJWTBuilder()
                      .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
                  .AddSubject("Vruck - Programeitor")
                  .AddIssuer("Teste.Securiry.Bearer")
                  .AddAudience("Teste.Securiry.Bearer")
-                 .AddClaim("UsuarioAPINumero", "1")
+                 .AddClaim("idUsuario", idUsuario)
                  .AddExpiry(5)
                  .Builder();
 

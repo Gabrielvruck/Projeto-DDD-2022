@@ -67,5 +67,26 @@ namespace Infraestrutura.Repositorio
                 return false;
             }
         }
+
+        public async Task<string> RetornaIdUsuario(string email)
+        {
+            try
+            {
+                using (var data = new Contexto(_optionsbuilder))
+                {
+                    var usuario = await data.ApplicationUser.
+                          Where(u => u.Email.Equals(email))
+                          .AsNoTracking()
+                          .FirstOrDefaultAsync();
+
+                    return usuario.Id;
+
+                }
+            }
+            catch (Exception)
+            {
+                return string.Empty;
+            }
+        }
     }
 }
